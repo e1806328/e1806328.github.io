@@ -1,0 +1,62 @@
+@charset "utf-8";
+
+h1{
+    text-align: center;
+ 
+    background-color: coral;
+
+    color: white;
+ 
+ }
+ 
+
+/* 全体のスタイル */
+.swiper-wrapper {
+	width: 100%;
+	height: 250px;
+}
+/* 全スライド共通スタイル */
+.swiper-slide {
+	color: #ffffff;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	line-height: 250px;
+}
+
+
+
+img {
+    width: 100%;
+    height: 50vw;
+    object-fit: cover;
+}
+
+  
+body{
+    background-color: cornsilk;
+}
+
+a{
+    background-color: rgb(84, 236, 8);
+    color: rgb(19, 18, 16);
+}
+  
+
+#minami{
+    color: orangered;
+}
+
+#kita{
+    color: royalblue;
+}
+
+table{
+    background-color: seashell;
+    margin: 3px auto;
+}
+
+table, td, th {
+    border: 2px #737171 solid;
+    }
+    
