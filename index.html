@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.8.0/swiper-bundle.css"
+        integrity="sha512-85xVunKWH9+w3fBf0ndSXOkkCuEWPbhAtnKKaFM7032omgb+gpRZXxs3bzs8mICAi8lASiYxHBxMcLYJdeJozA=="
+        crossorigin="anonymous" />
+
+
+    <title>課題3　1806328　</title>
+
+</head>
+
+
+<body>
+
+    <div style="text-align: center;">
+        <header>
+            <h1 id="toptop">甲斐駒ヶ岳(南アルプス）と劔岳(北アルプス)</h1>
+            <nav>
+                <a href="#slider1">甲斐駒ヶ岳の写真</a>
+                <a href="#slider2">劔岳の写真</a>
+                <a href="#chart3">甲斐駒ヶ岳と劔岳(標高マップ)</a>
+                <a href="#chart4">甲斐駒ヶ岳と劔岳(評価マップ)</a>
+
+
+            </nav>
+
+        </header>
+
+
+
+
+
+        <h2 id="slider1">甲斐駒ヶ岳の写真</h2>
+        <div class="swiper-container">
+            <!-- メイン表示部分 -->
+            <div class="swiper-wrapper">
+                <!-- 各スライド -->
+                <div class="swiper-slide"><img src="img/kaikoma.jpg" alt="甲斐駒ヶ岳"></div>
+                <div class="swiper-slide"><img src="img/kaikoma(top).jpg" alt="頂上"></div>
+                <div class="swiper-slide"><img src="img/road(kaikoma).jpg" alt="道"></div>
+                <div class="swiper-slide"><img src="img/kaikoma(utazyuku).jpg" alt="登山口"></div>
+            </div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+        <!-- Swiper END -->
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.8.0/swiper-bundle.min.js"
+            integrity="sha512-fRxU3fhg7jWn77+UqkAPkNmnpFAA0IwxT8nysPJ2++WcE0jvaTe7OxC5OH1wiA/grOqgeZreu35nMK/S0qmdkw=="
+            crossorigin="anonymous"></script>
+
+
+        <h2 id="slider2">劔岳の写真</h2>
+        <div class="swiper-container">
+            <!-- メイン表示部分 -->
+            <div class="swiper-wrapper">
+                <!-- 各スライド -->
+                <div class="swiper-slide"><img src="img/turugi(2999).jpg" alt="劔岳"></div>
+                <div class="swiper-slide"><img src="img/turugi(top).jpg" alt="頂上"></div>
+                <div class="swiper-slide"><img src="img/turugi(kani).jpg" alt="道"></div>
+                <div class="swiper-slide"><img src="img/tinnguruma.jpg" alt="チングルマの群生"></div>
+            </div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+        <!-- Swiper END -->
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.8.0/swiper-bundle.min.js"
+            integrity="sha512-fRxU3fhg7jWn77+UqkAPkNmnpFAA0IwxT8nysPJ2++WcE0jvaTe7OxC5OH1wiA/grOqgeZreu35nMK/S0qmdkw=="
+            crossorigin="anonymous"></script>
+
+
+            <table >
+                <!-- tableタグにborder＝"1"を入れると、チェッカーで満点にならなかったのでなくしてます。 -->
+    
+                
+                <tr>
+                   
+                    <th></th>
+                    <th>山域</th>
+                    <th>標高</th>
+                    <th>難易度</th>
+    
+                </tr>
+                <tr id="minami">
+                   
+                    <th>甲斐駒ヶ岳</th>
+                    <td>南アルプス(長野)</td>
+                    <td>2967m</td>
+                    <td>B</td>
+    
+                </tr>
+                <tr id="kita">
+                    
+                    <th>劔岳</th>
+                    <td>北アルプス(富山)</td>
+                    <td>2999m</td>
+                    <td>A</td>
+    
+                </tr>
+            </table>
+
+
+        <h2 id="chart3">甲斐駒ヶ岳と劔岳【標高と距離の比較】</h2>
+        <canvas id="myLineChart"></canvas>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.bundle.js"></script>
+
+
+        <h2 id="chart4">甲斐駒ヶ岳と劔岳【レーダーチャート】</h2>
+        <canvas id="myRadarChart2"></canvas>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.bundle.js"></script>
+
+
+
+
+
+        <a href="#toptop">先頭に戻る</a>
+
+
+
+        <script src="js/kadai3.js"></script>
+
+
+        <footer>
+            copyright &copy;e1806328,All Right Reserved
+        </footer>
+    </div>
+
+
+
+
+</body>
+
+
+
+
+
+</html>
